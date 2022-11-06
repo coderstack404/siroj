@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Music Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    </head><body>
+    <div class="container"> 
+            <i class="fas fa-search icon"></i>  <input type="search" id="search" autofocus autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search artist, songs, videos...">
+    
+          
+
+            <div id="loading"></div>
+    
+            <section class="sectionTwo">
+    
+                <div class="tracks">
+                    <header>
+                        <h3>Top Tracks</h3>
+                        <div class="heading">
+                            <p>Track/Artist</p>
+                            <p class="secondpara">Album</p>
+                        </div>
+                       <div class="linedivider"></div>
+                    </header>
+                    <div class="tracks-card"></div>
+                </div>
+                <div class="media-play"></div>
+            </section>
+            
+            <div class="videos">
+                <header>
+                    <h3>Top Videos</h3>
+                </header>
+                <div class="videos-card"></div>
+            </div>
+    </div>
+
+ <script src="itunes.js"></script>  
+</body>
+</html>

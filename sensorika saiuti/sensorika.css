@@ -1,0 +1,60 @@
+* {
+    text-decoration: none;
+    
+}
+.href {
+    display: inline;
+    width: 150px;
+    height: 200px;
+}
+#logo {
+    display: inline;
+    width: 200px;
+    height: 40px;
+}
+#type {
+    display: inline;
+    width: 200px;
+    height: 30px;
+   
+}
+h3 {
+    display: inline;
+    text-align: center;
+
+}
+
+
+#seach {
+    display: inline;
+    text-align: center;
+    display: inline;
+    width: 130px;
+    height: 40px; 
+   background-color: rgba(43, 156, 166, 0.74);
+    color: rgb(252, 10, 10);
+    border-radius: 10%;
+    border: none;
+}
+#shaxsiy {
+    display: inline;
+    text-align: center;
+    display: inline;
+    width: 130px;
+    height: 40px;   
+    color: rgb(252, 10, 10);
+    border-radius: 10%;
+    border: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
